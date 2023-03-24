@@ -1,4 +1,4 @@
-# Parking Violation Predictor with Kafka streaming and spark
+# Parking Violation Predictor with Kafka streaming and {PySpark
 
 # Architecture
 
@@ -35,11 +35,9 @@ Use this model to predict on Raw_to_vectorIndexed.
 a.       Docker container is created using docker
 composer to include following service,
 
-                                                               i.      Kafka
-
-                                                             ii.      Zookeeper
-
-                                                           iii.      Spark with Jupiter. 
+       i.      Kafka
+      ii.      Zookeeper
+     iii.      Spark with Jupiter. 
 
 b.       When docker images are run, the kafka will read
 the data from csv and stream.
